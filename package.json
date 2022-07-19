@@ -1,0 +1,37 @@
+{
+  "name": "chinese-characters-codepoints-converter",
+  "version": "1.0.1",
+  "description": "Simplfied and Traditional Chinese Characters & Unicode codepoints & Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epoweripione/chinese-characters-codepoints-converter.git"
+  },
+  "keywords": [
+    "chinese-characters",
+    "simplfied-traditional-chinese-unicode-codepoint",
+    "simplfied-traditional-chinese-unicode-converter"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "epoweripione",
+  "engines": {
+    "node": ">=10"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bugs": {
+    "url": "https://github.com/epoweripione/chinese-characters-codepoints-converter/issues"
+  },
+  "homepage": "https://github.com/epoweripione/chinese-characters-codepoints-converter",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
